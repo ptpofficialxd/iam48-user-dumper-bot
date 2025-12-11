@@ -1,3 +1,5 @@
+# Main Script #
+
 import requests
 import csv
 import signal
