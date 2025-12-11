@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ```env
 # ตัวอย่าง .env
-USER_DATA=YOUR_USER_DATA_URL_TEMPLATE_WITH_PLACEHOLDER
+USER_DATA=https://public.bnk48.io/user/{}/profile
 OUTPUT_FILE=YOUR_PATH_TO_OUTPUT_FILE_INCLUDING_FILE_NAME
 CSV_FILE=YOUR_PATH_TO_CSV_FILE_INCLUDING_FILE_NAME
 SUPABASE_URL=YOUR_SUPABASE_URL
@@ -74,3 +74,9 @@ python upload.py
 - ทางเลือก:
   - ใช้ **Service Role Key** สำหรับสคริปต์นี้ (เก็บเป็น secret บนเซิร์ฟเวอร์)
   - หรือสร้าง/แก้ Policy ใน Supabase ให้อนุญาตการ INSERT สำหรับ role ที่ต้องการ (ระมัดระวังความปลอดภัย)
+ 
+---
+
+<p align="center">
+  <strong>Developed by <code>ptpofficialxd</code></strong>
+</p>
